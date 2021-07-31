@@ -7,7 +7,7 @@ class CreateEmployees < ActiveRecord::Migration[6.0]
       t.date :birth, null: true
       t.date :joined_date, null: true
       t.bigint :payment, null: false, default: 0
-      t.text :note, null: false, default: ""
+      t.text :note, null: false
 
       t.timestamps
       t.integer :lock_version
