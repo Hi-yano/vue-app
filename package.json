@@ -14,5 +14,9 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Hi-yano/vue-app.git",
+  "author": "Hi-yano <73208511+Hi-yano@users.noreply.github.com>",
+  "license": "MIT"
 }
